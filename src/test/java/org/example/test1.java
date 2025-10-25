@@ -41,7 +41,7 @@ public class test1 {
     @Test
     public void getData() {
         System.out.println("======================================================================================");
-        System.out.println("<----------- Testing get request ------------->");
+        System.out.println("<----------- Testing get request - [Change] ------------->");
         Reporter.log("========== GET Request Test Started ==========");
 
         APIResponse response = apiRequestContext.get("https://reqres.in/api/users/2");
